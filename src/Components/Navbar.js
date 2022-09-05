@@ -8,7 +8,7 @@ import image9 from "../assets/image9.jpg";
 export default class componentName extends Component {
 	render() {
 		return (
-			<div>
+			<div className="xs={{ span: 5, offset: 1 }} lg={{ span: 6, offset: 2 }}">
 				<div
 					className="bg-light justify-content-between"
 					style={{ marginTop: "50px", marginBottom: "10px"}}
